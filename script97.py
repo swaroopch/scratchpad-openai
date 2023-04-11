@@ -3,7 +3,7 @@ from marvin import ai_fn
 
 @ai_fn
 def generate_color_palette(text: str) -> list[str]:
-    """Generate a color palette from given text as a list of strings."""
+    """Generate a color palette from text."""
 
 
 if __name__ == "__main__":

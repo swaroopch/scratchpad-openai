@@ -3,7 +3,7 @@ from marvin import ai_fn
 
 @ai_fn
 def extract_colors(text: str) -> list[str]:
-    """Extract colors from given text as a list of strings."""
+    """Extract colors from given text."""
 
 
 if __name__ == "__main__":
