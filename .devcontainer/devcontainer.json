@@ -1,11 +1,11 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11-bullseye",
   "hostRequirements": {
-    "cpus": 4
+    "cpus": 2
   },
   "waitFor": "onCreateCommand",
   "updateContentCommand": "python3 -m pip install -r requirements.txt",
-  "postCreateCommand": "",
+  "postCreateCommand": "source ~/.bashrc",
   "customizations": {
     "codespaces": {
       "openFiles": []
