@@ -9,5 +9,3 @@
 
 - Customization
     - Fine-tuning
-
-https://platform.openai.com/docs/introduction
