@@ -2,7 +2,8 @@
 
 ## Getting Started
 
-For best results, open this repository in [VSCode](https://code.visualstudio.com/).
+1. Set environment variable `OPENAI_API_KEY` from https://platform.openai.com/account/api-keys
+2. For best results, open this repository in [VSCode](https://code.visualstudio.com/).
 
 ## References
 
