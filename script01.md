@@ -1,6 +1,6 @@
 # What can you do with OpenAI APIs
 
-- Modalities
+- [Modalities](https://platform.openai.com/docs/models/overview)
     - Text to text
         - Text completion
         - Image completion
