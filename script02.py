@@ -1,7 +1,3 @@
-"""
-https://platform.openai.com/docs/libraries
-"""
-
 import os
 import openai
 
