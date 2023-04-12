@@ -1,3 +1,9 @@
+"""
+Basic request-response.
+
+https://platform.openai.com/docs/libraries/python-library
+"""
+
 import os
 import openai
 

@@ -1,3 +1,9 @@
+"""
+Using a prompt template.
+
+https://platform.openai.com/docs/quickstart/understand-the-code
+"""
+
 import os
 import openai
 
@@ -21,7 +27,3 @@ response = openai.Completion.create(
   temperature=0.6
 )
 print(response)
-
-# https://platform.openai.com/docs/api-reference/completions/create#completions/create-temperature
-# "Higher values like 0.8 will make the output more random, while 
-# lower values like 0.2 will make it more focused and deterministic."
