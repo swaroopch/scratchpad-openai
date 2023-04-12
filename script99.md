@@ -6,4 +6,5 @@
 # References
 
 - https://platform.openai.com/docs/introduction
+- https://platform.openai.com/examples
 - https://www.askmarvin.ai/guide/concepts/ai_functions/#examples
