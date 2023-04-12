@@ -1,7 +1,8 @@
-openai
+ipykernel
 langchain
 llama-index
 marvin[chromadb]
+openai
 pandas
 qdrant-client
 wget
