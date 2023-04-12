@@ -3,6 +3,8 @@
     "docker-compose.yml"
   ],
   "service": "dev",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
+  "workspaceFolder": "/workspace",
   "shutdownAction": "stopCompose",
   "hostRequirements": {
     "cpus": 8

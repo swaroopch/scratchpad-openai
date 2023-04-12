@@ -3,6 +3,8 @@ services:
     image: mcr.microsoft.com/devcontainers/python:3.10-bullseye
     command: /bin/sh -c "while sleep 1000; do :; done"
     network_mode: service:qdrant
+    volumes:
+      - ..:/workspace
   qdrant:
     image: qdrant/qdrant:latest
     restart: on-failure
