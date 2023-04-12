@@ -2,3 +2,6 @@ openai
 langchain
 llama-index
 marvin[chromadb]
+pandas
+qdrant-client
+wget

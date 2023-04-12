@@ -1,0 +1,12 @@
+# https://github.com/openai/openai-cookbook/blob/main/examples/vector_databases/qdrant/docker-compose.yaml
+version: '3.4'
+services:
+  dev:
+    image: mcr.microsoft.com/devcontainers/python:3.10-bullseye
+    command: /bin/sh -c "while sleep 1000; do :; done"
+  qdrant:
+    image: qdrant/qdrant:v1.0.1
+    restart: on-failure
+    ports:
+      - "6333:6333"
+      - "6334:6334"

@@ -1,11 +1,15 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/python:3.10-bullseye",
+  "dockerComposeFile": [
+    "docker-compose.yml"
+  ],
+  "service": "dev",
+  "shutdownAction": "stopCompose",
   "hostRequirements": {
     "cpus": 2
   },
   "waitFor": "onCreateCommand",
   "updateContentCommand": "pip install -U pip setuptools wheel && pip install -r requirements.txt",
-  "postCreateCommand": "source ~/.bashrc",
+  "postCreateCommand": ". ~/.bashrc",
   "customizations": {
     "codespaces": {
       "openFiles": []
@@ -15,7 +19,8 @@
         "ms-toolsai.jupyter",
         "ms-python.python",
         "GitHub.copilot",
-        "GitHub.copilot-labs"
+        "GitHub.copilot-labs",
+        "ms-azuretools.vscode-docker"
       ]
     }
   }
