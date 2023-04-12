@@ -9,7 +9,6 @@
   },
   "waitFor": "onCreateCommand",
   "updateContentCommand": "pip install -U pip setuptools wheel && pip install -r requirements.txt",
-  "postCreateCommand": ". ~/.bashrc",
   "remoteUser": "vscode",
   "customizations": {
     "codespaces": {
