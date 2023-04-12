@@ -2,7 +2,11 @@ ipykernel
 langchain
 llama-index
 marvin[chromadb]
+matplotlib
 openai
 pandas
+plotly
+pyarrow
 qdrant-client
 wget
+Wikipedia-API
